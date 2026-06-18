@@ -20,12 +20,12 @@ cask "nextpad" do
   uninstall quit: "org.nextpadplusplus.mac"
 
   zap trash: [
+    "~/.nextpad++",
     "~/Library/Application Support/Nextpad++",
     "~/Library/Caches/org.nextpadplusplus.mac",
     "~/Library/HTTPStorages/org.nextpadplusplus.mac",
     "~/Library/Preferences/org.nextpadplusplus.mac.plist",
     "~/Library/Saved Application State/org.nextpadplusplus.mac.savedState",
     "~/Library/WebKit/org.nextpadplusplus.mac",
-    "~/.nextpad++",
   ]
 end
