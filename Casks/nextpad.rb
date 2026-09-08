@@ -1,6 +1,6 @@
 cask "nextpad" do
-  version "1.1.0"
-  sha256 "8254dd8f5a0483b3e20916a72a969d225a452feab54079642a4b7767ed052bf5"
+  version "1.1.1"
+  sha256 "61f14d3feafb7d29d37242edc3148880dd62e0831c85ca8e70be15552d3fdb26"
 
   url "https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/releases/download/v#{version}/Nextpad++v#{version}.dmg",
       verified: "github.com/nextpad-plus-plus/nextpad-plus-plus-macos/"
