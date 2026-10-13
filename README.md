@@ -8,6 +8,8 @@ the native macOS port of Notepad++.
 ```sh
 brew tap nextpad-plus-plus/nextpad
 brew install --cask nextpad
+# or, equivalently, the same cask under its ++ name:
+brew install --cask nextpad++
 ```
 
 Nextpad++ is Apple Developer ID signed and notarized, so no
@@ -17,18 +19,24 @@ Nextpad++ is Apple Developer ID signed and notarized, so no
 
 ```sh
 brew upgrade --cask nextpad
+OR
+brew upgrade --cask nextpad++
 ```
 
 ## Uninstall
 
 ```sh
 brew uninstall --cask nextpad
+OR
+brew uninstall --cask nextpad++
 ```
 
 To also remove configuration and saved state (`~/.nextpad++`, preferences):
 
 ```sh
 brew uninstall --zap --cask nextpad
+OR
+brew uninstall --zap --cask nextpad++
 ```
 
 ## Links
